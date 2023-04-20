@@ -15,7 +15,7 @@ constraint pk_Cliente primary key (idCliente),
 );
 
 create table Conta (
-idContaCliente int identity, 
+idContaCliente int identity, /* status no git*/
 idCliente int identity not null,
 saldoCliente decimal (10,2),       
 tipocontaCliente varchar (30),
